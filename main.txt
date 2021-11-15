@@ -1,0 +1,37 @@
+\documentclass[a4paper,12pt]{article}
+% character encoding
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,romanian]{babel}
+\usepackage{enumitem}
+% adjust the page margins
+\usepackage[scale=0.7]{geometry}
+% no indent
+\usepackage{parskip}
+\usepackage{hyperref}
+\newlist{toc}{enumerate}{10}
+\setlist[toc]{label*=\arabic*.}
+\begin{document}
+\begin{center}
+\large Universitatea de Vest din Timișoara \\
+\large Facultatea de Matematică și Informatică \\
+\vspace{0.5cm}
+\Large\textbf{.....}
+\vspace{1cm}
+\end{center}
+\begin{description}
+\item[Student:] \hfill \\
+....
+\end{description}
+\begin{description}
+\item[Coordonator:] \hfill \\
+Lector dr. Popovici Adriana
+\end{description}
+
+
+\subsection*{Descrierea temei:}
+
+
+\subsection*{Soluții similare existente pentru problema propusă:}
+
+\end{document}
