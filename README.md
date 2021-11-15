@@ -1,1 +1,4 @@
 # SP_Test
+Compania pentru care lucrati v-a ales sa dezvoltati o aplicatie de tip media player care sa poata rula diverse playlist-uri, care pot fi alcatuite din videoclipuri, gif-uri, melodii sau alte playlist-uri. Fiecare dintre elementele precizate anterior are ca si parametru dimensiunea in Kb si un titlu. Pentru adaugarea unui element redabil in playlist, se va simula descarcarea fiecarui element de pe internet, prin intermediul unui URL. Se considera ca fiecare videoclip are un timp de descarcare de 5 secunde, o melodie de 3 secunde si un gif de o secunda. De asemenea, se doreste implementarea unui set de operatii care calculeaza dimensiunea totala a fiecarei categorii de element redabil in parte, cat si dimensiunea totala a playlist-ului curent. 
+ 
+Implementati un model de date care sa permita combinarea diferitelor elemente redabile, cat si pentru suportarea operatiei cerute.
